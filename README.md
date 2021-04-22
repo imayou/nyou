@@ -39,3 +39,8 @@ xcode-select --install
 
 ### pom.xml配置
 > 参考https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/#_sample_project_setup
+
+### mvn编译
+```
+mvn -Pnative-image clean package -Dmaven.test.skip=true
+```
