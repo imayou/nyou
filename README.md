@@ -30,7 +30,7 @@ gu -L install native-image-installable-svm-java11-linux-amd64-21.1.0.jar
 #centos
 sudo yum install gcc glibc-devel zlib-devel
 #ubuntu 
-sudo apt-get install build-essential libz-dev zlib1g-dev
+sudo apt-get install build-essential libz-dev zlib-devel zlib1g-dev
 #other
 sudo dnf install gcc glibc-devel zlib-devel libstdc++-static
 #macOS
